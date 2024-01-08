@@ -5,7 +5,7 @@ const {
     getdata,
     deleteDB,
     updateDB
-} =require('../controllers/workoutControllers')
+} =require('../controllers/companyControllers')
 
 const router = express.Router()
 

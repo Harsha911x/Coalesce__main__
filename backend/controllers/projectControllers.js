@@ -1,4 +1,4 @@
-const data_base = require('../models/data_base')
+const data_base = require('../models/project_DB')
 const mongoose = require('mongoose')
 //Get all workouts
 const getdata_base = async(req,res) => {
