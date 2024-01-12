@@ -1,4 +1,4 @@
-// File: C:\Users\ABHI\Desktop\Github\Coalesce__main__\FRONTEND\app\src\app\layout.tsx
+// File: A:\Coalesce__main__\FRONTEND\app\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
