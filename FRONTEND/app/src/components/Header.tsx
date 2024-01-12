@@ -16,7 +16,23 @@ const Header = () => {
             />
             <span className="ml-3 text-xl"></span>
           </a>
-          
+          <div className='Header'>
+            <ul>
+              <button className='h' style={{ fontSize: '16px' ,paddingLeft:'50px' }}>Home</button>
+
+              <button className='s' style={{ fontSize: '16px',paddingLeft:'50px' }}>SkillHive</button>
+
+              <button className='b' style={{ fontSize: '16px',paddingLeft:'50px' }}>ByteBrefives</button>
+
+              <button className='g' style={{ fontSize: '16px',paddingLeft:'50px' }}>Gammit</button>
+
+              <button className='j' style={{ fontSize: '16px' ,paddingLeft:'50px'}}>Jobbite</button>
+
+              <button className='w' style={{ fontSize: '16px',paddingLeft:'50px' }}>Whappning</button>
+            </ul>
+
+          </div>
+
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
 
             <div className="absolute top-39 right-10 mr-4 mt-4" style={{ color: "white" }}>
