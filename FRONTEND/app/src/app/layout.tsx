@@ -3,8 +3,10 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LoginPage from "@/Loginpage/Login"
+import Hero from "@/components/Hero"
 import "../styles/globals.css";
-
+import Body from "@/components/Body"
+import Snip from "@/components/Snip"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,11 +23,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
+        <Hero/>
+        <Snip/>
+        <Body/>
         <LoginPage/>
-
         <Footer/>
         {children}
       </body>
     </html>
-  );
+  )
 }
